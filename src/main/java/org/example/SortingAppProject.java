@@ -1,9 +1,8 @@
 package org.example;
 
 import java.util.Arrays;
-import java.util.TooManyListenersException;
 
-public class SortingAppPriject {
+public class SortingAppProject {
 
     public void sort(int[] array) {
         if (array == null) {
