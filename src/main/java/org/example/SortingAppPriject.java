@@ -16,3 +16,4 @@ public class SortingAppPriject {
         else Arrays.sort(array);
     }
 }
+
