@@ -11,7 +11,6 @@ public class SortingTest {
     public void testNullCase(){
         sorting.sort(null);
     }
-
     @Test
     public void testSingleElementArrayCase() {
         int[] array = new int[]{300};
