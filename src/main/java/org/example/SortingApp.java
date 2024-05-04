@@ -1,13 +1,11 @@
 package org.example;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.util.Arrays;
 public class SortingApp {
     private static final Logger logger = LogManager.getLogger(SortingApp.class);
 
     public static void main(String[] args) {
-        // Example usage
         int[] array = {5, 2, 9, 1, 3};
         SortingApp sortingApp = new SortingApp();
         sortingApp.sort(array);
